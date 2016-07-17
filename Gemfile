@@ -3,7 +3,6 @@ gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
-Gemfile: ruby '2.2.4'
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
