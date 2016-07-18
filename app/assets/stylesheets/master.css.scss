@@ -1,7 +1,4 @@
-// Place all the styles related to the quotes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
+@import url(https://fonts.googleapis.com/css?family=Oxygen:700);
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -49,4 +46,12 @@ header {
 }
 
 hr { clear:both; 
+}
+
+h1 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+    font-family: 'Oxygen', sans-serif;
 }
