@@ -9,20 +9,23 @@
 <body>
  <header>
   <div class="col-xs-3">
-   <div class="cirlce">
+   <%= link_to root_path, class: 'logo' do %>
+   <div class="circle">
      <br />
       you know
      <br />
       you need
-     </div>
+     <br />
       to code
+      </div>
+    <% end %>
    </div>
  </div>
 <div class="col-xs-4 slogan">
 splurting out unsolicited advice about entrepreneurship since 2016
 </div>
 <div class="col-xs-5 links">
-  <%= link_to 'contribute', '#' %>
+  <%= link_to 'contribute', new_quote_path %>
 
   <%= link_to 'About', '#' %>
   </div>
@@ -37,7 +40,7 @@ splurting out unsolicited advice about entrepreneurship since 2016
 <div class="footer">
   <div class="container">
    <div class="col-xs-6">
-    <%= link_to "This isn't enough, I need more", root_path, :class => "next-quote" %>
+    <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
     </div>
     <div class="col-xs-6 footer-blurb">
      Proudly hacked in Boston, MA by <a herf="http://thefirehoseproject.com">Marco &amp; Ken</a><br />

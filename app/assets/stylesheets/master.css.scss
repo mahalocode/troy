@@ -13,12 +13,12 @@
     border-radius: 100%;
     background: #f84342;
     border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 100px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -67,4 +67,8 @@ footer-blurb {
   font-style: italic;
   text-align:right;
   font-size:10px;
+}
+
+.logo:hover {
+  text-decoration:none;
 }
