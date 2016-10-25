@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:700);
+@import "bootstrap-sprockets";
+ @import "bootstrap";
 
-
-.clear {
+..clear {
   clear:both;
 }
 
@@ -10,7 +11,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: red;
     border: 1px solid #F7F7F7;
     width: 110px;
     height: 100px;
