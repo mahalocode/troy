@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
+gem 'rails', '4.1.0'
+
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -33,7 +34,7 @@ group :doc do
   # Use Autoprefixer with Bootstrap to add
   gem 'autoprefixer-rails'
 end
-
+gem 'puma'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
