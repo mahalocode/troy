@@ -1,28 +1,21 @@
 == README
+This is my first web application. Created using Postgresql database with simple form gem for user to contribute their quotes.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Issues:
+Some issues I was having is rails versio 4.2. tried to update to that version but it cause webrick to fail.
 
-Things you may want to cover:
+ressolve:
 
-* Ruby version
+Solve this by using gem puma. and recreate development database using bundle exec rake db:create and rake db:migrate.
 
-* System dependencies
+Clone repository:
 
-* Configuration
+first click on troy link. On the top right their is a green button for clone or down load. Copy the link and store it in your app folder.
 
-* Database creation
+for me is cd /vagran/src
+then use git clone command,  space, and paste the link. 
 
-* Database initialization
+cd into app. 
+rails s 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please feel free to play around!
